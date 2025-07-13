@@ -8,6 +8,8 @@ import org.springframework.web.client.RestClient;
 import org.springframework.web.client.support.RestClientAdapter;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
+//Amina war hier und hat besonders großzügig am Projekt gearbeiet
+
 @SpringBootApplication
 public class RunnerzApplication {
 
