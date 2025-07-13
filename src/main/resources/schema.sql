@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS Run;
+DROP TABLE IF EXISTS run;
+CREATE TABLE Run (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    started_on TIMESTAMP NOT NULL,
+    completed_on TIMESTAMP NOT NULL,
+    miles INTEGER NOT NULL,
+    location VARCHAR(255)
+);

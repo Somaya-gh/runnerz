@@ -1,0 +1,12 @@
+{
+  "runs": [
+    {
+      "id": 1,
+      "title": "Morning Run",
+      "startedOn": "2025-07-01T06:00:00",
+      "completedOn": "2025-07-01T06:30:00",
+      "miles": 5,
+      "location": "OUTDOOR"
+    }
+  ]
+}
