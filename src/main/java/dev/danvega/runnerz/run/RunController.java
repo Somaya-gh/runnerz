@@ -22,7 +22,7 @@ class RunController { //anegblich ein spring rest cotroller was das heitst ist m
     @GetMapping
     List<Run> findAll() {
         return runRepository.findAll();
-    }
+    } // Kommentar1
 
     @GetMapping("/{id}")
     Run findById(@PathVariable Integer id) {
