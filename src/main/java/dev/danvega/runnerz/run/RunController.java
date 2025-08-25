@@ -53,6 +53,6 @@ class RunController { //anegblich ein spring rest cotroller was das heitst ist m
 
     List<Run> findByLocation(@RequestParam String location) {
         return runRepository.findByLocation(location);
-    }
+    } // Kommentar2
 }
 //FAZIT WARUM HAB ICH GEFÜHLT 100 KLASSEN DEI DAS SLEB MACHEN ALLE HABEN CREATE DELETE BLABLA RECIHT DOCH
